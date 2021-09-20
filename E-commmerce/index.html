@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <title>E-commerce Website</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="preconnect" href="https://fpnts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?
+        family=poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+    <div class="container">
+        <div class="navber">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    
+        <div class="row" id="home">
+            <div class="col-2">
+                <h1  style="color: rgb(221, 79, 79);">Brand Waali Quality, <br>Bazaar Waali Deal!</h1>
+                <h3>Success isn't always about greatness. It's about
+                     consistency.<br> Consistent hard work gain success. Gretness will come.</h3>
+                <a href="" class="btn">Explore Now &#10141;</a>
+             </div>
+            <div class="col-2">
+                <img src="images/image1.png" alt="pic1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------freatured catagories------>
+<div class="catagories" id="freatured">
+    
+    <div class="small-container">
+        <h2 class="title">Our Products</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-4.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-5.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-6.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- freatured Product -->
+      <div class="small-container" id="product">
+          <h2 class="title">Featured Products</h2>
+          <div class="row">
+              <div class="col-4">
+               <img src="images/product-1.jpg" alt="product-1">
+               <h4>Red Printed T-Shirt</h4>
+               <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
+               </div>
+               <p>₹300/-</p>
+              </div>
+              <div class="col-4">
+                <img src="images/product-2.jpg" alt="product-1">
+                <h4>Black Shoes </h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-half-o"></span>
+                </div>
+                <p>₹700/-</p>
+               </div>
+               <div class="col-4">
+                <img src="images/product-3.jpg" alt="product-1">
+                <h4>Trouser</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-half-o"></span>
+                 <span class="fa fa-star-o"></span>
+                </div>
+                <p>₹900/-</p>
+               </div>
+               <div class="col-4">
+                <img src="images/product-4.jpg" alt="product-1">
+                <h4>Blue T-Shirt</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                </div>
+                <p>₹2000/-</p>
+               </div>
+          </div>
+
+          <h2 class="title">Latest Products</h2>
+          <div class="row">
+            <div class="col-4">
+             <img src="images/product-5.jpg" alt="product-1">
+             <h4>Wallet</h4>
+             <div class="rating">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star-half-o"></span>
+             </div>
+             <p>₹300/-</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-6.jpg" alt="product-1">
+              <h4>N-95 Masks</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+              </div>
+              <p>₹700/-</p>
+             </div>
+             <div class="col-4">
+              <img src="images/product-7.jpg" alt="product-1">
+              <h4>Socks</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+               <span class="fa fa-star-o"></span>
+              </div>
+              <p>₹200/-</p>
+             </div>
+             <div class="col-4">
+              <img src="images/product-8.jpg" alt="product-1">
+              <h4>Watch</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+              </div>
+              <p>₹2000/-</p>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+             <img src="images/product-9.jpg" alt="product-1">
+             <h4>Watch</h4>
+             <div class="rating">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star-half-o"></span>
+             </div>
+             <p>₹300/-</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-10.jpg" alt="product-1">
+              <h4>Shoes </h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+              </div>
+              <p>₹700/-</p>
+             </div>
+             <div class="col-4">
+              <img src="images/product-11.jpg" alt="product-1">
+              <h4>Belts</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+               <span class="fa fa-star-o"></span>
+              </div>
+              <p>₹900/-</p>
+             </div>
+             <div class="col-4">
+              <img src="images/product-12.jpg" alt="product-1">
+              <h4>Trouser</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+              </div>
+              <p>₹2000/-</p>
+             </div>
+        </div>
+
+      </div>
+   <!-- ------offer------ -->
+   <div >
+       <div class="small-container">
+        <h2 class="title">Exclusively Available On Our Store</h2>
+           <div class="row">
+               <div class="col-2">
+                   <img src="images/exclusive.png" class="offer-img">
+               </div>
+               <div class="col-2 offer">
+                   <h1>MI PowerBank</h1>
+                   <small>Color	Multicolor<br>
+                    Capacity (mAH):	10000 - 20000 mAH, 1000 - 5000 mAH, 5001 - 10000 mAH<br>
+                    USB Port:	Single<br>
+                    With LED:	Yes<br>
+                    Minimum Order Quantity:	100<br>
+                    In the Box Contents	Power bank x 1, user manual x 1, USB data cable x 1
+                    </small><br>
+                        <a href="" class="btn">Buy Now &#10141;</a>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- ------testimonial------- -->
+   <div class="testimonial">
+       <div class="small-container">
+           <div class="row">
+              <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Better Product Review helps to build the trust 
+                    and credibility of new shoppers by integrating a v
+                    buyer badge right besides the customers’ nicknames.
+                     Therefore, the reviews then become more trustable 
+                     and real ones. This part is truly important to 
+                     customers’ decision - building the trust.</p>
+                     <span class="fa fa-quote-right"></span>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span>
+               </div>
+              <img src="images/user-1.png">
+              <h3>Sima Pal</h3>
+             </div>  
+
+             <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Better Product Review helps to build the trust 
+                    and credibility of new shoppers by integrating a v
+                    buyer badge right besides the customers’ nicknames.
+                     Therefore, the reviews then become more trustable 
+                     and real ones. This part is truly important to 
+                     customers’ decision - building the trust</p>
+                     <span class="fa fa-quote-right"></span>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span>
+               </div>
+              <img src="images/user-2.png">
+              <h3>Ram Mondal</h3>
+             </div>
+             
+             <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Better Product Review helps to build the trust 
+                    and credibility of new shoppers by integrating a v
+                    buyer badge right besides the customers’ nicknames.
+                     Therefore, the reviews then become more trustable 
+                     and real ones. This part is truly important to 
+                     customers’ decision - building the trust</p>
+                     <span class="fa fa-quote-right"></span>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span>
+               </div>
+              <img src="images/user-3.png">
+              <h3>Mala Roy</h3>
+             </div> 
+           </div>
+       </div>
+   </div>
+
+<!---------contact us--------->
+
+   <section class="location">
+    <div class="small-container">
+        <h2 class="title">Contact-us</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630409112!2d88.04953608529773!3d22.
+    675752093263746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2s
+    Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1628071305013!5m2!1sen!2sin" width="600" height="450" 
+    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+<section class="Contact-us" >
+    
+    <div class="small-container"id="contact">
+       
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <span class="fa fa-home"></span>
+                <span>
+                    <h5>XYZ Road ,ABC Building</h5>
+                    <p>Kolkata,West Bengal</p>
+                </span>
+            </div>
+            <div>
+                <span class="fa fa-phone"></span>
+                <span>
+                    <h5>+91 230975364</h5>
+                    <p>Monday To Saturday, 10AM To 6PM</p>
+                </span>
+            </div>
+            <div>
+                <span class="fa fa-envelope-o"></span>
+                <span>
+                    <h5><a href="">info@shubhajit.com</a></h5>
+                    <p>Email us Your quries</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="formhandeler.php" method="Post">
+                <input type="text" name ="name" placeholder="Enter Your Name" required>
+                <input type="email" name ="email" placeholder="Enter Your Mail" required>
+                <input type="text" name ="Subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8"  name="Message"placeholder="Message"></textarea>
+                <button type="submit" name="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+
+   <!-- ------footer------ -->
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phone.</p>
+                   <div class="app-logo">
+                       <img src="images/play-store.png">
+                       <img src="images/app-store.png">
+                   </div>
+               </div>
+               <div class="footer-col-2">
+                <img src="images/logo.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure 
+                    and Benefits of products to the Many. </p>
+               </div>
+               <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+               </div>
+               <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+                </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copytight 2021 - Shubhajit Chatterjee.</p>
+       </div>
+   </div>
+
+
+
+   <!-- ------for toggle menu------- -->
+   <script>
+       var MenuItems= document.getElementById("MenuItems");
+
+       MenuItems.style.maxHeight="0px";
+
+       function menutoggle(){
+           if(MenuItems.style.maxHeight=="0px")
+           {
+            MenuItems.style.maxHeight="200px";
+
+           }
+           else
+           {
+            MenuItems.style.maxHeight="0px";
+           }
+       }
+   </script>
+
+    </body>
+</html>
